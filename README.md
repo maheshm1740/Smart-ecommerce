@@ -55,12 +55,12 @@ ER diagram :
 
 1. Navigate to the backend folder:
 
-```bash
+bash
 cd ecommerce-backend
-Configure PostgreSQL in application.properties:
+
+2.Configure PostgreSQL in application.properties:
 
 properties
-Copy code
 spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce_db
 spring.datasource.username=your_db_username
 spring.datasource.password=your_db_password
@@ -75,32 +75,32 @@ server.port=8080
 
 logging.level.org.hibernate.SQL=DEBUG
 logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
-Build and run the backend:
+
+3. Build and run the backend:
 
 bash
-Copy code
 ./mvnw spring-boot:run
-Test APIs using Postman.
 
-Frontend
-Navigate to the frontend folder:
+4. Test APIs using Postman.
+
+### Frontend
+
+1. Navigate to the frontend folder:
 
 bash
-Copy code
 cd ecommerce-frontend
 Install dependencies:
 
 bash
-Copy code
 npm install
 Start the React app:
 
 bash
-Copy code
 npm run dev
 Open http://localhost:5137 in your browser.
 
-Why This Project?
+
+## Why This Project?
 Demonstrates full-stack development skills for a fresher.
 
 Implements secure authentication and RESTful API design.
