@@ -78,8 +78,8 @@ ER diagram :
 
 3. Build and run the backend:
 
-  bash
-  ./mvnw spring-boot:run
+  bash<br>
+  ./mvnw spring-boot:run<br>
 
 4. Test APIs using Postman.
 
@@ -87,18 +87,18 @@ ER diagram :
 
 1. Navigate to the frontend folder:
 
-  bash
-  cd ecommerce-frontend
-  Install dependencies:
+  bash<br>
+  cd ecommerce-frontend<br>
+2.Install dependencies:
 
-  bash
-  npm install
-2. Start the React app:
+  bash<br>
+  npm install<br>
+3. Start the React app:
 
-  bash
-  npm run dev
+  bash<br>
+  npm run dev<br>
   
-3. Open http://localhost:5137 in your browser.
+4. Open http://localhost:5137 in your browser.
 
 
 ## Why This Project?
