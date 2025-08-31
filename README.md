@@ -61,20 +61,20 @@ ER diagram :
 2. Configure PostgreSQL in application.properties:
 
   properties
-  spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce_db
-  spring.datasource.username=your_db_username
-  spring.datasource.password=your_db_password
-  spring.datasource.driver-class-name=org.postgresql.Driver
+  spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce_db<br>
+  spring.datasource.username=your_db_username<br>
+  spring.datasource.password=your_db_password<br>
+  spring.datasource.driver-class-name=org.postgresql.Driver<br>
   
-  spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
-  spring.jpa.hibernate.ddl-auto=update
-  spring.jpa.show-sql=true
-  spring.jpa.properties.hibernate.format_sql=true
+  spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect<br>
+  spring.jpa.hibernate.ddl-auto=update<br>
+  spring.jpa.show-sql=true<br>
+  spring.jpa.properties.hibernate.format_sql=true<br>
   
-  server.port=8080
+  server.port=8080<br>
   
-  logging.level.org.hibernate.SQL=DEBUG
-  logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
+  logging.level.org.hibernate.SQL=DEBUG<br>
+  logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE<br>
 
 3. Build and run the backend:
 
