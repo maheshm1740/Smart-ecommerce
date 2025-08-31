@@ -101,12 +101,12 @@ Open http://localhost:5137 in your browser.
 
 
 ## Why This Project?
-Demonstrates full-stack development skills for a fresher.
+- Demonstrates full-stack development skills for a fresher.
 
-Implements secure authentication and RESTful API design.
+- Implements secure authentication and RESTful API design.
 
-Shows understanding of relational databases, JPA entities, and frontend-backend integration.
+- Shows understanding of relational databases, JPA entities, and frontend-backend integration.
 
-Highlights recommendation system implementation for enhanced user experience.
+- Highlights recommendation system implementation for enhanced user experience.
 
-Ideal for portfolio showcase and interviews.
+- Ideal for portfolio showcase and interviews.
