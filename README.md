@@ -49,13 +49,6 @@ ER diagram :
 <img width="536" height="324" alt="image" src="https://github.com/user-attachments/assets/e885fce9-2a1b-4c42-9850-dce3798f711f" />
 
 
-yaml
-Copy code
-
-> Note: `InteractionLog` captures user views or purchases to feed the recommendation engine.
-
----
-
 ## Getting Started
 
 ### Backend
